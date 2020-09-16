@@ -14,7 +14,8 @@ body {
 
 .image__container {
     place-self: center;
-    grid-column: 3/7;
+    grid-column: 6/20;
+    grid-row: 1/-1;
 }
 
 #gallery__container {
@@ -28,22 +29,21 @@ body {
 
 .gallery__quickView {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(24, 1fr);
     padding: 2em 0 2em 0;
+    grid-template-rows: repeat(3, 1fr);
 }
 
 .product__name {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    transform: translate(4%, 30%);
+    font-size: 2rem;
     color: #c0ab9f;
-    font-size: 1.5rem;
     font-family: 'Museo Sans Rounded 300';
+    src: local('Museo Sans Rounded 300'), url('MuseoSansRounded300.woff') format('woff');
     font-style: normal;
     font-weight: normal;
-    src: local('Museo Sans Rounded 300'), url('MuseoSansRounded300.woff') format('woff');
+    margin: 0;
+    align-self: center;
+    grid-column: 2/6;
 }
 
 .arrow {
@@ -56,10 +56,41 @@ body {
     align-self: center;
     margin-right: 4vw;
     grid-column: 8;
+    grid-row: 1/-1;
+    grid-column: 24/-1;
 }
 
 .arrow.left {
     justify-self: start;
     align-self: center;
     margin-left: 4vw;
+    grid-column: 1/2;
+    grid-row: 1/-1;
+}
+
+
+/* Responsive Text─────────────────────────────────────────────────────────────────────── */
+
+@media only screen and (max-width: 880px) {
+    .product__name {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .product__name {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .product__name {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .product__name {
+        font-size: 0.8rem;
+    }
 }
