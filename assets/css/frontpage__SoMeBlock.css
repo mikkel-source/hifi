@@ -14,26 +14,23 @@ body {
     "facebook blogger twitter";
     max-width: 100%;
     justify-items: center;
-    background-color: aqua;
+    background-color: aqua; /* Only for demo - remove after final merge */
 }
-
-.SoMeBlock__item{
-    align-self: center;
-}
-
 .fa-facebook-square {
     grid-area: facebook;
-    font-size: 250px;
+    font-size: 15.625rem;
     padding: 141px 0;
-    
+    color: white;
 }
 .fa-blogger {
     grid-area: blogger;
-    font-size: 250px;
+    font-size: 15.625rem;
     padding: 141px 0;
+    color: white;
 }
 .fa-twitter-square {
     grid-area: twitter;
-    font-size: 250px;
+    font-size: 15.625rem;
     padding: 141px 0;
+    color: white;
 }
