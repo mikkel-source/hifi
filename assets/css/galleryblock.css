@@ -44,6 +44,7 @@ body {
     margin: 0;
     align-self: center;
     grid-column: 2/6;
+    text-transform: uppercase;
 }
 
 .arrow {
