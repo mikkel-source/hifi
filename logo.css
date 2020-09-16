@@ -1,0 +1,42 @@
+body{
+    background: #000;
+}
+
+.logo{
+    font-family: 'Museo Sans Rounded 600';
+    font-weight: 600;
+    width: 12vw;
+}
+
+.logo__largeText{
+    text-transform: uppercase;
+    font-size: 2.5vw;
+    border: 1.5px solid #FFF;
+    color: #FFF;
+    padding-bottom: 0.5%;
+    padding-left: 1vw;
+}
+
+.logo__largeText p:first-of-type{
+    margin: 0;
+    padding-top: 6.5vw;
+    letter-spacing: 0.6vw;
+}
+
+.logo__largeText p:last-of-type{
+    margin: 0;
+    letter-spacing: 0.9vw;
+}
+
+.logo__websiteLink{
+    text-transform: uppercase;
+    max-width: 100%;
+    font-size: 0.92vw;
+    font-weight: 600;
+    letter-spacing: 0.2vw;
+    color: #FFF;
+    margin: 0;
+    padding-top: 1vw;
+}
+
+@media screen and (max-width: )
