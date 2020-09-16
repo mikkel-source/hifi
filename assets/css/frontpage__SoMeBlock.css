@@ -14,6 +14,7 @@ body {
     "facebook blogger twitter";
     max-width: 100%;
     justify-items: center;
+    justify-content: space-evenly;
     background-color: aqua; /* Only for demo - remove after final merge */
 }
 .fa-facebook-square {
