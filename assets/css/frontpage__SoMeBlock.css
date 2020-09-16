@@ -1,3 +1,39 @@
+html {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+
 .SoMeBlock__container {
     display: grid;
+    grid-template-columns: repeat(minmax(40px, 33.33vw));
+    grid-template-areas: 
+    "facebook blogger twitter";
+    max-width: 100%;
+    justify-items: center;
+    background-color: aqua;
+}
+
+.SoMeBlock__item{
+    align-self: center;
+}
+
+.fa-facebook-square {
+    grid-area: facebook;
+    font-size: 250px;
+    padding: 141px 0;
+    
+}
+.fa-blogger {
+    grid-area: blogger;
+    font-size: 250px;
+    padding: 141px 0;
+}
+.fa-twitter-square {
+    grid-area: twitter;
+    font-size: 250px;
+    padding: 141px 0;
 }
