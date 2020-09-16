@@ -1,0 +1,18 @@
+.greenBackground{
+    font-family: 'Museo Sans Rounded 600';
+    font-weight: 600;
+    margin: 0;
+    display: grid;
+    grid-template: 1fr / auto;
+}
+
+.greenBackground__image{
+    max-width: 100%;
+    height: auto;
+    background-color: #000;
+    grid-area: 1/1/2/2;
+}
+
+.greenBackground__heading{
+    grid-area: 1/1/2/2;
+}
