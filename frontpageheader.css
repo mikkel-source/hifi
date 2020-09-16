@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.frontpageheaderblock {
+    /* border: 2px solid red; */
+    width: 60vw;
+    margin: 0 auto;
+    height: 60vh;
+    margin-top: 2%;
+    background-image: url(./img/header-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
