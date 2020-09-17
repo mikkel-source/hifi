@@ -1,7 +1,7 @@
-html {
+html { /* Only for demo - remove after final merge */
     box-sizing: border-box;
 }
-body {
+body { /* Only for demo - remove after final merge */
     margin: 0;
     padding: 0;
   }
@@ -9,29 +9,28 @@ body {
 
 .SoMeBlock__container {
     display: grid;
-    grid-template-columns: repeat(minmax(40px, 33.33vw));
+    grid-template-columns: repeat( 3 minmax(40px, 33.33vw));
     grid-template-areas: 
     "facebook blogger twitter";
     max-width: 100%;
     justify-items: center;
-    justify-content: space-evenly;
     background-color: aqua; /* Only for demo - remove after final merge */
 }
 .fa-facebook-square {
     grid-area: facebook;
-    font-size: 15.625rem;
-    padding: 141px 0;
+    font-size: 13vw;
+    margin: 8.8125rem 0;
     color: white;
 }
 .fa-blogger {
     grid-area: blogger;
-    font-size: 15.625rem;
-    padding: 141px 0;
+    font-size: 13vw;
+    margin: 8.8125rem 0;
     color: white;
 }
 .fa-twitter-square {
     grid-area: twitter;
-    font-size: 15.625rem;
-    padding: 141px 0;
+    font-size: 13vw;
+    margin: 8.8125rem 0;
     color: white;
 }
