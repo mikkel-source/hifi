@@ -40,3 +40,7 @@ body{
     margin: 0;
     padding-top: 3vw; /* padding mellem firkanten og linket */
 }
+
+/* Jeg vil sige: først find den rigtige størrelse på din HIFI tekst og få i'erne til at sidde rigtigt. 
+Lav derefter boksen firkantet - det er to linjer kode der gør det. 
+Arranger så til sidst linket så det passer i skriftstørrelse og vidde ift firkanten. */
