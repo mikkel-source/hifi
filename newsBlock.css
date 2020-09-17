@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
+.newsBlock__container {
 
     background-image: url("./newsBlockBackground.jpg");
     background-size: cover;
