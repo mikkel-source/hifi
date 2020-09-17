@@ -3,95 +3,92 @@
 /* CSS Document */
 
 body {
-    background-color: #000;
+  background-color: #000;
 }
-
 #photo {
-    max-width: 100%;
-    height: auto;
-    place-self: center;
+  max-width: 100%;
+  height: auto;
 }
-
 .image__container {
-    place-self: center;
-    grid-column: 6/20;
-    grid-row: 1/-1;
+  place-self: center;
+  grid-column: 6/20;
+  grid-row: 1/-1;
 }
-
 #gallery__container {
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 0;
-    box-sizing: border-box;
-    position: relative;
-    max-width: 100vw;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100vw;
 }
-
 .gallery__quickView {
-    display: grid;
-    grid-template-columns: repeat(24, 1fr);
-    padding: 2em 0 2em 0;
-    grid-template-rows: repeat(3, 1fr);
+  display: grid;
+  grid-template-columns: repeat(24, 1fr);
+  padding: 2em 0 2em 0;
+  grid-template-rows: repeat(3, 1fr);
 }
-
 .product__name {
-    font-size: 2rem;
-    color: #c0ab9f;
-    font-family: 'Museo Sans Rounded 300';
-    src: local('Museo Sans Rounded 300'), url('MuseoSansRounded300.woff') format('woff');
-    font-style: normal;
-    font-weight: normal;
-    margin: 0;
-    align-self: center;
-    grid-column: 2/6;
-    text-transform: uppercase;
+  font-size: 1.5rem;
+  color: #c0ab9f;
+  font-family: 'Museo Sans Rounded 300';
+  src: local('Museo Sans Rounded 300'), url('MuseoSansRounded300.woff') format('woff');
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  align-self: end;
+  grid-column: 2/6;
+  text-transform: uppercase;
 }
-
 .arrow {
-    font-size: 5vw;
-    color: #c0ab9f;
+  font-size: 5vw;
+  color: #c0ab9f;
 }
-
 .arrow.right {
-    justify-self: end;
-    align-self: center;
-    margin-right: 4vw;
-    grid-column: 8;
-    grid-row: 1/-1;
-    grid-column: 24/-1;
+  justify-self: end;
+  align-self: center;
+  margin-right: 4vw;
+  grid-column: 8;
+  grid-row: 1/-1;
+  grid-column: 24/-1;
 }
-
 .arrow.left {
-    justify-self: start;
-    align-self: center;
-    margin-left: 4vw;
-    grid-column: 1/2;
-    grid-row: 1/-1;
+  justify-self: start;
+  align-self: center;
+  margin-left: 4vw;
+  grid-column: 1/2;
+  grid-row: 1/-1;
 }
-
 
 /* Responsive Text─────────────────────────────────────────────────────────────────────── */
 
-@media only screen and (max-width: 880px) {
-    .product__name {
-        font-size: 1.5rem;
-    }
+@media only screen and (max-width: 915px) {
+  .product__name {
+    font-size: 1.3rem;
+  }
 }
-
+@media only screen and (max-width: 850px) {
+  .product__name {
+    font-size: 1rem;
+  }
+}
 @media only screen and (max-width: 660px) {
-    .product__name {
-        font-size: 1.2rem;
-    }
+  .product__name {
+    font-size: 0.8rem;
+  }
 }
-
 @media only screen and (max-width: 560px) {
-    .product__name {
-        font-size: 1rem;
-    }
+  .product__name {
+    font-size: 0.7rem;
+  }
 }
-
 @media only screen and (max-width: 450px) {
-    .product__name {
-        font-size: 0.8rem;
-    }
+  .product__name {
+    font-size: 0.6rem;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .product__name {
+    font-size: 0.5rem;
+  }
 }
