@@ -4,4 +4,9 @@
     background: #E1E1E1;
     border-top: 1px solid #CCC;
     border-bottom: 1px solid #CCC;
+    width: 100%;
+}
+
+.sortBy__arrow{
+    font-weight: 300;
 }

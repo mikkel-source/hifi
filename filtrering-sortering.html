@@ -15,7 +15,30 @@
 <main>
 
     <article class="filterAndSorting">
-        
+        <form action="#" class="filterAndSorting__sortBy">
+            <label for="sortBy__label">Sort by:</label>
+            <input type="text" id="sortBy" name="sortBy" class="sortBy__input">
+            <i class="fas fa-long-arrow-alt-up sortBy__arrow"></i>
+        </form>
+
+        <p class="filterAndSorting__itemsCounter">133 Item(s)</p>
+
+        <form action="#" class="filterAndSorting__show">
+            <label for="show" class="show__label">Show:</label>
+            <select type="text" id="show" name="show" class="show__select">
+                <option value="30">30</option>
+                <option value="150">150</option>
+                <option value="300">300</option>
+                <option value="500">500</option>
+                <option value="all">All</option>
+            </select>
+        </form>
+
+        <div class="filterAndSorting__viewAs">
+            <p class="viewAs__label">View as:</p>
+            <i class="fas fa-th-large viewAs__grid"></i>
+            <i class="fas fa-bars viewAs__list"></i>
+        </div>
     </article>
 
 </main>
