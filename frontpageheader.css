@@ -8,13 +8,17 @@ body {
 }
 .frontpageheaderblock {
     /* border: 2px solid red; */
-    width: 60vw;
+    max-width: 60vw;
     margin: 0 auto;
     height: 60vh;
     margin-top: 2%;
-    background-image: url(./img/header-img.png);
+    background-image: url(./img/pig.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+
+
     
+    }
     
-}
