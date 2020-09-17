@@ -1,0 +1,45 @@
+
+i {
+    border: 1px white solid;
+    border-radius: 50px;
+    color: white;
+}
+.facebook {
+    font-size: smaller;
+}
+.footer_frontpage {
+    display: grid;
+    grid-template-columns: 3fr auto 6fr 4fr 2fr;
+    grid-template-rows: 1fr;
+    grid-gap: 2px;
+    background-color: #b0a160;
+    padding: 3vh 3vw;
+}
+
+.footer_frontpage_address {
+    grid-area: 1 / 1 / 2 / 2;
+    font-family: 'Museo Sans Rounded 700';
+    font-style: normal;
+    font-size: 10px;
+    font-weight: 700;
+}
+.footer_frontpage_refunds_privacy {
+    grid-area: 1 / 2 / 2 / 3;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2px;
+    font-size: 15px;
+    color: white;
+
+}
+.footer_frontpage_refunds_privacy a{
+    color: white;
+}
+
+.footer_frontpage_payment {
+    grid-area: 1 / 4 / 2 / 5;
+}
+.footer_frontpage_SoMe {
+    grid-area: 1 / 5 / 2 / 6;
+}
