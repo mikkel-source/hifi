@@ -1,0 +1,35 @@
+.venstre_aside_one {
+    display: grid;
+    background-color: #dddddd;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 4px;
+    width: 20vw;
+    padding: 10vh;
+    margin-bottom: 2em;
+}
+.venstre_aside_one a {
+    text-decoration: none;
+    color: #b0a160;
+    font-family: 'Museo Sans Rounded 700';
+    font-size: 15px;
+}
+.venstre_aside_to {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 4px;
+    width: 20vw;
+    padding: 10vh;
+    background-color: #dddddd;
+}
+
+.different_amplifiers {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    padding-left: 2vw;
+}
+.manufacturer {
+    text-transform: uppercase;
+}
