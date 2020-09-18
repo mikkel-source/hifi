@@ -10,8 +10,8 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-gap: 8px;
-    width: 20vw;
-    padding: 10vh;
+    width: 25vw;
+    padding-left: 3vwM;
     margin-bottom: 2em;
 }
 
@@ -28,6 +28,7 @@
 
 .venstre_aside_one>a:first-of-type {
     color: #828D8A;
+    margin-top: 3rem;
 }
 
 .venstre_aside_to {
