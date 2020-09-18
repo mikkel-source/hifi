@@ -1,26 +1,32 @@
 
-i {
+.footer_frontpage_SoMe i {
     border: 1px white solid;
     border-radius: 50px;
     color: white;
-}
-.facebook {
-    font-size: smaller;
-}
-.footer_frontpage {
-    display: grid;
-    grid-template-columns: 3fr auto 6fr 4fr 2fr;
-    grid-template-rows: 1fr;
-    grid-gap: 2px;
-    background-color: #b0a160;
-    padding: 3vh 3vw;
+    font-size: 4vh;
+    margin-right: 2vh;
+    padding: 4px;
 }
 
+.footer_frontpage {
+    display: grid;
+    grid-template-columns: 3fr auto 6fr 3fr 1.5fr;
+    grid-template-rows: 1fr;
+    grid-gap: 2px;
+    background-color: #A39161;
+    padding: 3vh 1.5vw;
+}
+.footer_frontpage_payment i {
+    color: white;
+    font-size: 6vh;
+    margin-right: 2vh;
+    
+}
 .footer_frontpage_address {
     grid-area: 1 / 1 / 2 / 2;
-    font-family: 'Museo Sans Rounded 700';
-    font-style: normal;
-    font-size: 10px;
+    font-family: 'Museo Sans Rounded 300';
+    font-style: normal; /*default er italic på adress tag*/
+    font-size: 2.5vh;
     font-weight: 700;
 }
 .footer_frontpage_refunds_privacy {
@@ -29,8 +35,9 @@ i {
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2px;
-    font-size: 15px;
+    font-size: 3.5vh;
     color: white;
+    font-family: 'Museo Sans Rounded 300';
 
 }
 .footer_frontpage_refunds_privacy a{
@@ -42,4 +49,5 @@ i {
 }
 .footer_frontpage_SoMe {
     grid-area: 1 / 5 / 2 / 6;
+    
 }
