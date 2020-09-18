@@ -7,9 +7,7 @@ body {
   align-self: center;
   margin: 0;
   text-transform: uppercase;
-  font-family: 'Museo Sans Rounded 700';
-  font-style: normal;
-  font-weight: normal;
+  font-family: 'Museo Sans Rounded 900';
 }
 .reklameBanner img {
   max-width: 100vw;
