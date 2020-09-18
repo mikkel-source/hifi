@@ -1,19 +1,48 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Hifi</title>
-    <meta name="author" content="Daniel Niemann Hjermitslev">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/fonts.css">
-</head>
+    <meta name="author" content="Daniel Niemann Hjermitslev" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/fonts.css" />
+  </head>
 
-<body>
+  <body>
+    <div class="wrapper">
+
+
+      <!-- Checkout Price and Color Module -->
+      <div class="checkout__container">
+        <div class="form__container">
+          <form class="checkout__form">
+            <fieldset>
+              <div class="title__container">
+                <p class="title__text">
+                  Finish <span class="title__text--red">*</span>
+                </p>
+                <span class="title__text--red">* Required Fields</span>
+              </div>
+              <div class="form__radio">
+                <input type="radio" id="form__color--black" name="form_black" value="Black">
+                <label for="form__color--black">Black</label><br>
+                <input type="radio" id="form__color--silver" name="form_silver" value="Silver">
+                <label for="form__color--silver">Silver</label><br>
+              </div>
+              <div class="form">
+                <label for="form_quantity">Qty:</label>
+                <input type="text" name="form_quantity" id="form_quantity" value="">
+              </p>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+      <!--                                  -->
+
+    </div>
     <script type="module" src="/assets/js/app.js" async defer></script>
-</body>
-
+  </body>
 </html>
