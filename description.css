@@ -14,6 +14,6 @@
 .descriptionbox__tableheader {
     text-align: left;
 }
-td {
+.description__tabledata {
     text-align: right;
 }
