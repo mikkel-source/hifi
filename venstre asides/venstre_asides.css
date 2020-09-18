@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .venstre_aside_one {
     display: grid;
     background-color: #E1E1E1;
@@ -13,6 +14,7 @@
     padding: 10vh;
     margin-bottom: 2em;
 }
+
 .venstre_aside_one a {
     text-decoration: none;
     color: #A39161;
@@ -20,9 +22,14 @@
     font-size: 15px;
 }
 
+.amplifiers {
+    color:#828D8A;
+}
+
 .venstre_aside_one>a:first-of-type {
     color: #828D8A;
 }
+
 .venstre_aside_to {
     display: grid;
     grid-template-columns: 1fr;
@@ -32,36 +39,37 @@
     padding: 10vh;
     background-color: #dddddd;
 }
+
 .venstre_aside_to a {
     color: #A39161;
     font-family: 'Museo Sans Rounded 300';
     text-decoration: none;
 }
+
 .venstre_aside_to h1,p {
     font-family: 'Museo Sans Rounded 500';
     padding-bottom: 1vh;
 }
+
 .venstre_aside_to h1 {
     color: #A39161;
     text-transform: uppercase;
 }
+
 .different_amplifiers {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     padding-left: 1vw;
     grid-gap: 6px;
-    
 }
+
 .different_amplifiers a {
     font-family: 'Museo Sans Rounded 300';
     font-weight: 300;
 }
+
 .manufacturer {
     text-transform: uppercase;
     padding-top: 1vh;
-}
-
-.amplifiers {
-    color:#828D8A;
 }
