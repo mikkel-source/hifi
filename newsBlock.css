@@ -4,16 +4,17 @@
     box-sizing: border-box;
 }
 .newsBlock__container {
-
+    height: 40vh;
     background-image: url("./newsBlockBackground.jpg");
     background-size: cover;
     text-align: center;
+    
 }
 .newsBlock__text {
-    text-shadow: 2px 2px 6px black;
-    padding: 4em 2em 4em 2em;
+    padding: 1.5em;
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 400;
-    font-size: 3.5em;
+    text-transform: uppercase;
+    font-family: 'Museo Sans Rounded 300';
+    font-size: 3em;
+ 
 }
