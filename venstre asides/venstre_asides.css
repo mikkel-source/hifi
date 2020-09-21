@@ -11,7 +11,7 @@
     grid-template-rows: auto;
     grid-gap: 8px;
     width: 25vw;
-    padding-left: 3vwM;
+    padding-left: 3vw;
     margin-bottom: 2em;
 }
 
@@ -36,9 +36,10 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-gap: 8px;
-    width: 20vw;
-    padding: 10vh;
+    width: 25vw;
+    padding-left: 3vw;
     background-color: #dddddd;
+    margin-bottom: 3rem;
 }
 
 .venstre_aside_to a {
@@ -55,6 +56,8 @@
 .venstre_aside_to h1 {
     color: #A39161;
     text-transform: uppercase;
+    margin-top: 3rem;
+    
 }
 
 .different_amplifiers {
