@@ -23,12 +23,14 @@ body{
     width: 100%;
     display: grid;
     grid-template: auto auto / 50vw 50vw;
-    padding: 1rem 0.7rem 2rem 0.7rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
 
 .sortBy__label{
     text-transform: uppercase;
     padding-right: 0.3rem;
+    padding-left: 0.7rem;
 }
 
 .sortBy__select{
@@ -48,6 +50,7 @@ body{
 .filterAndSorting__gridItem{
     justify-self: end;
     display: flex;
+    padding-right: 0.7rem;
 }
 
 .filterAndSorting__itemsCounter{
