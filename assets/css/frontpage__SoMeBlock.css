@@ -9,7 +9,7 @@ body { /* Only for demo - remove after final merge */
 
 .SoMeBlock__container {
     display: grid;
-    grid-template-columns: repeat( 3 minmax(40px, 33.33vw));
+    grid-template-columns: repeat( 3,minmax(40px, 33.33vw));
     grid-template-areas: 
     "facebook blogger twitter";
     max-width: 100%;
