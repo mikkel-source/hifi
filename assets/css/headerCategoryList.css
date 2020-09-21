@@ -55,10 +55,15 @@
 
 /* Responsive──────────────────────────────────────────────────────── */
 
+@media only screen and (min-width: 1600px) {
+  .search {
+    width: 20vw;
+  }
+}
 @media only screen and (max-width: 650px) {
   .headerCategoryList {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 1fr 2fr;
     align-items: center;
   }
   .search {
