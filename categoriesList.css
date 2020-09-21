@@ -10,6 +10,7 @@ body {
     grid-template-rows: auto auto auto;
     background-color: rgb(255, 255, 255);
     grid-row-gap: 5em;
+    font-family: 'Museo Sans Rounded 700';
     text-transform: uppercase;
 }
 .container__products {
@@ -29,6 +30,7 @@ body {
     height: 11vh;
 }
 .products__figcaption {
+    /* font-size: .8em; */
     color: rgb(99, 99, 99);
 }
 .products__priceUl {
