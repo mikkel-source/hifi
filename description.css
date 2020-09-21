@@ -1,7 +1,7 @@
 .descriptionbox__text {
-    /* color: green; */
     margin: 0;
     color: #a59169;
+    text-transform: uppercase;
 }
 .decriptionbox__table {
     width: 25vw;
@@ -17,4 +17,10 @@
 .description__tabledata {
     text-align: right;
     font-weight: normal;
+}
+.textbox__text {
+    line-height: 1.4;
+    padding-bottom: 1em;
+
+
 }
