@@ -16,9 +16,10 @@
 .title__text--red {
     color: red;
 }
-.title__text--redMargin{ /* Required fields */
+.title__text--redPadding{ /* Required fields */
     color: red;
     padding-right: 1.66em;
+    font-size: 1vw;
 }
 
 .form__radio--greyBg{
