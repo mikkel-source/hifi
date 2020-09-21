@@ -1,25 +1,59 @@
 .brandbox {
-    width: 100%;
-    max-height: 50vh;
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-}
-.brand-box__brandsimage {
-    width: 100%;
+width: 100%;
     height: 100%;
-    /* background-color: blue; */
-    background-image: url(./img/COLOURBOX47020963.JPG);
+display:grid;
+grid-template-columns: auto 50%;
+border: solid 2em white;
+
+}
+.brandbox__stock {
+    background: linear-gradient(to right, black, #3a3732);
+
+}
+.brandbox-section__title {
+    color: #a39161;
+    margin-left: 1em;
+    /* margin-top: 5em; */
+    font-family: "Museo Sans Rounded 100"
+
+
+}
+.brandbox-section__image {
+    /* width: 100%; */
+    height: 100%;
+    margin-left: 3em;
+    font-size: .5em;
+    object-fit: scale-down;
+    object-position: 0;
+    
 
 }
 .brandbox__text {
-    /* background-color: blue; */
-    background-image: url(./img/COLOURBOX47020961.JPG);
-    background-position: center;
-    color: #ffffff;
+    background: linear-gradient(to right, rgb(31, 29, 29), #3a3732);
+
 }
 .brandbox__textheadline {
-    color: #ffffff;
+    font-weight: 100;
+    color: #a39161;
+    /* padding-bottom: 1.5em; */
+    margin-left: 1em;
+    text-transform: uppercase;
+    font-family: "Museo Sans Rounded 300"
 }
+
 .brand-box__textundertitle {
-    color: #ffffff;
+    color: #a39161;
+    margin-top: 5em;
+    margin-left: .5em;
+    text-transform: uppercase;
+    font-family: "Museo Sans Rounded 300"
+    ;
+
 }
+.textbox__text {
+    color: #ffffff;
+    margin-left: 1em;
+}
+
+
+
