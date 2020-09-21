@@ -4,7 +4,6 @@
     color: #a59169;
 }
 .decriptionbox__table {
-    border: 2px solid grey;
     width: 25vw;
     height: 50vh;
     font-size: 1em;
@@ -13,7 +12,9 @@
 
 .descriptionbox__tableheader {
     text-align: left;
+    font-weight: normal;
 }
 .description__tabledata {
     text-align: right;
+    font-weight: normal;
 }

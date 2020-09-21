@@ -1,0 +1,24 @@
+.brandbox {
+    width: 40vw;
+    max-height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+.brand-box__brandsimage {
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+    background-image: url(./img/COLOURBOX47020963.JPG);
+
+}
+.brandbox__text {
+    /* background-color: blue; */
+    background-image: url(./img/COLOURBOX47020961.JPG);
+    background-position: center;
+}
+.brandbox__textheadline {
+    color: #a59169;
+}
+.brand-box__textundertitle {
+    color: #a59169;
+}
