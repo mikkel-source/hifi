@@ -22,7 +22,7 @@ body{
     border-bottom: 1px solid #CCC;
     width: 100%;
     display: grid;
-    grid-template: auto auto / 50vw 50vw;
+    grid-template: auto auto / 50% 50%;
     padding-top: 1rem;
     padding-bottom: 2rem;
 }
