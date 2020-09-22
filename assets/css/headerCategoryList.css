@@ -19,7 +19,6 @@
   grid-template-rows: 1fr;
   background-color: #000;
   align-items: end;
-  border-bottom: 1px solid #A39161;
 }
 .account, .cart {
   display: flex;

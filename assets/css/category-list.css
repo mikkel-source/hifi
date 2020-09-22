@@ -1,9 +1,11 @@
 body{
-    background: #FFF;
+    background: #000;
 }
 
 main{
-    margin: 0 2vw;
+    padding: 0 2vw;
+    margin: 0 10vw;
+    background: #FFF;
 }
 
 .inputAndIcons{
