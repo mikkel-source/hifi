@@ -1,0 +1,45 @@
+
+
+.logo{
+    padding-top: 3vw;
+    padding-left: 1vw;
+    padding-bottom: 1vw;
+    font-family: 'Museo Sans Rounded 500';
+    font-weight: 500;
+}
+
+.logo__largeText{
+    max-width: 4.5vw; /* vidden på firkanten */
+    text-transform: uppercase;
+    font-size: 0.7vw; /* skriftstørrelsen på HIFI */
+    border: 2px solid #FFF;
+    color: #FFF;
+    padding-bottom: 0.1vw; /* padding under HIFI */
+    padding-left: 0.2vw; /* padding til venstre for HIFI */
+}
+
+.logo__largeText p:first-of-type{
+    margin: 0;
+    padding-top: 2.5vw; /* højden på firkanten */
+    letter-spacing: 0.5vw; /* hvor langt i'et er fra h'et */
+    line-height: 0.7vw;
+}
+
+.logo__largeText p:last-of-type{
+    margin: 0;
+    letter-spacing: 0.7vw; /* hvor langt i'et er fra f'et */
+}
+
+.logo__websiteLink{
+    text-transform: uppercase;
+    max-width: 100%;
+    font-size: 0.5vw; /* skriftstørrelsen på linket under firkanten */
+    font-weight: 600;
+    color: #FFF;
+    margin: 0;
+    padding-top: 0.3vw; /* padding mellem firkanten og linket */
+}
+
+/* Jeg vil sige: først find den rigtige størrelse på din HIFI tekst og få i'erne til at sidde rigtigt. 
+Lav derefter boksen firkantet - det er to linjer kode der gør det. 
+Arranger så til sidst linket så det passer i skriftstørrelse og vidde ift firkanten. */
