@@ -1,0 +1,12 @@
+body{
+    background: #FFF;
+}
+
+#categoryList{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.breadcrumb{
+    grid-area: span 3;
+}
