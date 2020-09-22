@@ -20,11 +20,11 @@ body{
     background: #E1E1E1;
     border-top: 1px solid #CCC;
     border-bottom: 1px solid #CCC;
-    width: 100%;
     display: grid;
     grid-template: auto auto / 50% 50%;
     padding-top: 1rem;
     padding-bottom: 2rem;
+    margin: 0 0 2vw 0;
 }
 
 .sortBy__label{
@@ -77,7 +77,7 @@ body{
 
 .filterAndSorting__viewAs{
     display: flex;
-    margin-left: 17vw;
+    justify-self: end;
     padding-top: 0.2rem;
 }
 
