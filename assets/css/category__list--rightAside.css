@@ -1,0 +1,21 @@
+.catList___aside--rightText {
+    font-family: 'Museo Sans Rounded 500';
+    color: #A69161;
+}
+.catList__link-container {
+    display: flex;
+    flex-direction: column;
+}
+.catList__linkItem {
+    font-family: 'Museo Sans Rounded 300';
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    margin-left: 1em;
+}
+
+.catList__viewMore {
+    font-family: 'Museo Sans Rounded 500';
+    text-decoration: none;
+    color: #A69161;
+}
