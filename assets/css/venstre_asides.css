@@ -13,6 +13,7 @@
     width: 25vw;
     padding-left: 3vw;
     margin-bottom: 2em;
+    padding-bottom: 48px;
 }
 
 .venstre_aside_one a {
@@ -40,6 +41,7 @@
     padding-left: 3vw;
     background-color: #dddddd;
     margin-bottom: 3rem;
+    padding-bottom: 48px;
 }
 
 .venstre_aside_to a {

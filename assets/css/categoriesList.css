@@ -1,42 +1,35 @@
-body {
-    width: 65vw;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 .categoriesList__container {
-    width: 100vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto;
     background-color: rgb(255, 255, 255);
-    grid-row-gap: 5em;
+    grid-gap: 2vw;
     font-family: 'Museo Sans Rounded 700';
     text-transform: uppercase;
+    margin: 2vw 0;
 }
+
 .container__products {
-    /* border: 1px red solid; */
-    /* text-align: center; */
     text-align: center;    
     display: grid;
-   grid-template-areas: 'figImage'
+    grid-template-areas:'figImage'
                         'priceUl'
-                       'addToCardLink';
-   
+                        'addToCardLink';  
 }
+
 .products__figImage {
-    width: 16vw;
-    height: 25vh;
-    /* text-align: center; */
+    justify-self: center;
     grid-area: figImage;
+    max-height: 10vw;
 }
+
 .products__image {
     border: 1px solid rgb(201, 220, 226);
-    padding: 6vh 0;
-    width: 17vw;
-    height: 17vh;
-   
+    text-align: center;
+    width: 100%;
+    height: auto;
 }
+
 .products__figcaption {
     width: 15vw;
     height: 15vh;
@@ -45,18 +38,19 @@ body {
     font-size: 1vw;
     color: rgb(85, 84, 84);
 }
+
 .products__priceUl {
-    width: 15vw;
-    /* margin-inline-start: 250px; */
     color: rgb(163, 145, 97);
     grid-area: priceUl;
     margin-top: 9vh;
     margin-left: 1vw;
 }
+
 .products__priceUl :nth-child(1) {
     color: rgb(184, 183, 183);
     text-decoration: line-through;   
 }
+
 .products__priceList {
     font-family: 'Museo Sans Rounded 300';
     font-size: 1.2vw;
@@ -68,10 +62,10 @@ body {
 
 .products__addToCardLink {
     grid-area: addToCardLink;
-    margin: 2vh auto 0 12vh;
+    justify-self: center;
     width: 9vw;
     padding: .5vw 1.5vw;
-    font-size: 1.2vw;
+    font-size: 1vw;
     color: rgb(255 , 255, 255);
     background-color: rgb(163, 145, 97);
     text-decoration: none;
