@@ -48,7 +48,8 @@
     text-decoration: none;
 }
 
-.venstre_aside_to h1,p {
+.venstre_aside_to h1,
+.venstre_aside_to p {
     font-family: 'Museo Sans Rounded 500';
     padding-bottom: 1vh;
 }
