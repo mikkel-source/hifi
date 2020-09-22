@@ -4,7 +4,8 @@ ul.breadcrumb {
 }
 ul.breadcrumb li {
   display: inline;
-  font-size: 18px;
+  font-size: 1rem;
+  font-family: 'Museo Sans Rounded 300';
 }
 ul.breadcrumb li + li:before {
   padding: 8px;
