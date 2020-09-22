@@ -7,6 +7,8 @@
 @import "/assets/css/filtrering-sortering.css";
 @import "/assets/css/venstre_asides.css";
 @import "/assets/css/categoriesList.css";
+@import "/assets/css/category__list--rightAside.css";
+@import "/assets/css/footer_frontpage.css";
 
 body{
     background: #000;
