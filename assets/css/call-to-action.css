@@ -1,0 +1,36 @@
+.call-to-action-button {
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: black;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 500;
+    color: #b0a160;
+    /*font-family: 'Museo Sans Rounded';*/
+  }
+
+.call-to-action-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: 1fr;
+    background-color: black;
+    padding-top: 2vh;
+    grid-gap: 4px;
+}
+.call-to-action-section div {
+    text-align: center;
+} 
+   
+.call-to-action-p {
+    color: white;
+    font-family: 'Museo Sans Rounded 300';
+    font-weight: 300;
+    font-size: 17px;
+    /*font-size: 5vh;*/
+    /*font-size: calc(17px + 1vw);*/
+    text-transform: uppercase;
+
+}
