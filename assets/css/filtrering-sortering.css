@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+}
+
+.categoryList__heading{
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Museo Sans Rounded 500';
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin: 0;
+    padding-bottom: 1.2rem;
+}
+
+.filterAndSorting{
+    max-width: 100%;
+    font-family: 'Museo Sans Rounded 500';
+    font-weight: 500;
+    font-size: 1rem;
+    background: #E1E1E1;
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    width: 100%;
+    display: grid;
+    grid-template: auto auto / 50% 50%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.sortBy__label{
+    text-transform: uppercase;
+    padding-right: 0.3rem;
+    padding-left: 0.7rem;
+}
+
+.sortBy__select{
+    border: 1px solid #AAA;
+    padding: 0.15rem 1rem 0.15rem 0;
+    font-size: 1rem;
+}
+
+.sortBy__arrow{
+    font-weight: 300;
+    color: #666;
+    padding-left: 0.5rem;
+    text-decoration: none;
+    align-self: center;
+}
+
+.filterAndSorting__gridItem{
+    justify-self: end;
+    display: flex;
+    padding-right: 0.7rem;
+}
+
+.filterAndSorting__itemsCounter{
+    font-family: 'Museo Sans Rounded 700';
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin: 0;
+    padding-right: 1rem;
+}
+
+.filterAndSorting__show{
+}
+
+.show__label{
+    text-transform: uppercase;
+    padding-right: 0.3rem;
+}
+
+.show__select{
+    border: 1px solid #AAA;
+    padding: 0.15rem 1rem 0.15rem 0;
+    font-size: 1rem;
+}
+
+.filterAndSorting__viewAs{
+    display: flex;
+    margin-left: 17vw;
+    padding-top: 0.2rem;
+}
+
+.viewAs__label{
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.viewAs__grid{
+    color: #A39161;
+}
+
+.viewAs__list{
+    color: #CCC;
+}
+
+.viewAs__grid,
+.viewAs__list{
+    padding: 0 0.7rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+
+
