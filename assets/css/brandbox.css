@@ -3,28 +3,22 @@ display:grid;
 grid-template-columns: 50% 50%;
 grid-template-rows: 100%;
 border: solid 1em white;
-
-
+margin: 0 10vw;
 }
 .brandbox__stock {
     background: linear-gradient(to right, black, #3a3732);
-
 }
 .brandbox-section__title {
     color: #a39161;
     margin-left: 1em;
     /* margin-top: 5em; */
     font-family: "Museo Sans Rounded 100";
-
 }
 .brandbox-section__image {
     width: 100%;
     margin-left: 1em;
     object-fit: scale-down;
     object-position: left top;
-    
-    
-
 }
 .brandbox__text {
     background: linear-gradient(to right, rgb(31, 29, 29), #3a3732);
@@ -38,15 +32,12 @@ border: solid 1em white;
     font-family: "Museo Sans Rounded 300";
     font-size: 2em;
 }
-
 .brand-box__textundertitle {
     color: #a39161;
     margin-top: 5em;
     margin-left: .5em;
     text-transform: uppercase;
-    font-family: "Museo Sans Rounded 300"
-    ;
-
+    font-family: "Museo Sans Rounded 300";
 }
 .textbox__text {
     color: #ffffff;
