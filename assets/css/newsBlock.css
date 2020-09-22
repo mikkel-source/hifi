@@ -6,7 +6,7 @@
 
 .newsBlock__container {
     height: 40vh;
-    background-image: url("./newsBlockBackground.jpg");
+    background-image: url("/img/newsBlockBackground.jpg");
     background-size: cover;
     text-align: center;
 }

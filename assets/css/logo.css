@@ -1,14 +1,16 @@
-body{
+body {
     background: #000;
 }
+
+
 /* indset baggrund for at se logoet, med mindre du indsætter det i dit eget arbejde */
 
-.logo{
+.logo {
     font-family: 'Museo Sans Rounded 500';
     font-weight: 500;
 }
 
-.logo__largeText{
+.logo__largeText {
     max-width: 40vw;
     text-transform: uppercase;
     font-size: 10vw;
@@ -18,19 +20,19 @@ body{
     padding-left: 3vw;
 }
 
-.logo__largeText p:first-of-type{
+.logo__largeText p:first-of-type {
     margin: 0;
     padding-top: 21vw;
     letter-spacing: 1.8vw;
     line-height: 8vw;
 }
 
-.logo__largeText p:last-of-type{
+.logo__largeText p:last-of-type {
     margin: 0;
     letter-spacing: 2.9vw;
 }
 
-.logo__websiteLink{
+.logo__websiteLink {
     text-transform: uppercase;
     max-width: 100%;
     font-size: 3.66vw;
