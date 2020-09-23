@@ -1,0 +1,48 @@
+.call-to-action-button {
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: black;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #b0a160;
+    /*font-family: 'Museo Sans Rounded';*/
+  }
+
+.call-to-action-section {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    background-color: black;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    grid-gap: 4px;
+}
+.call-to-action-section div {
+    text-align: center;
+} 
+   
+.call-to-action-p {
+    color: white;
+    font-family: 'Museo Sans Rounded 300';
+    font-weight: 300;
+    font-size: 12px;
+    /*font-size: 5vh;*/
+    /*font-size: calc(17px + 1vw);*/
+    text-transform: uppercase;
+
+}
+.call-to-action__div1 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.call-to-action__div2 {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.call-to-action__div3 {
+    grid-area: 1 / 4 / 2 / 5; 
+}
