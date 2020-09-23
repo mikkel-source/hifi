@@ -1,17 +1,17 @@
 
-@import "productPage__checkout.css";
-@import "gallery_thumbnails.css";
-@import "knapper.css";
-@import "breadcrumb.css";
-@import "boks_med_tekst.css";
-@import "additionalinfo.css";
-@import "headerCategoryList.css";
-@import "categoryHeaderLogo.css";
-@import "singleProduct.css";
-@import "reklamebanner.css";
-@import "call_us.css";
-@import "productPage_footer.css";
-@import "singleproduct_navbar.css";
+@import "/assets/css/productPage__checkout.css";
+@import "/assets/css/gallery_thumbnails.css";
+@import "/assets/css/knapper.css";
+@import "/assets/css/breadcrumb.css";
+@import "/assets/css/boks_med_tekst.css";
+@import "/assets/css/additionalinfo.css";
+@import "/assets/css/headerCategoryList.css";
+@import "/assets/css/categoryHeaderLogo.css";
+@import "/assets/css/singleProduct.css";
+@import "/assets/css/reklamebanner.css";
+@import "/assets/css/call_us.css";
+@import "/assets/css/productPage_footer.css";
+@import "/assets/css/singleproduct_navbar.css";
 
 body {
   font-family: 'Museo Sans Rounded 500';
