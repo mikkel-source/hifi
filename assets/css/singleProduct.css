@@ -7,6 +7,7 @@
 @import "additionalinfo.css";
 @import "headerCategoryList.css";
 @import "categoryHeaderLogo.css";
+@import "singleProduct.css";
 
 body {
   font-family: 'Museo Sans Rounded 500';
