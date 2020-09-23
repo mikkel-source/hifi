@@ -12,7 +12,7 @@ body {
 .image__container {
   place-self: center;
   grid-column: 6/20;
-  grid-row: 1/-1;
+  grid-row: 1/-1; 
 }
 #gallery__container {
   margin: 0 auto;

@@ -1,0 +1,54 @@
+@import "/assets/css/fonts.css";
+@import "/assets/css/logo.css";
+@import "/assets/css/headerCategoryList.css";
+@import "/assets/css/headerMedNavbar.css";
+@import "/assets/css/category-list.css";
+@import "/assets/css/breadcrumb.css";
+@import "/assets/css/filtrering-sortering.css";
+@import "/assets/css/venstre_asides.css";
+@import "/assets/css/categoriesList.css";
+@import "/assets/css/category__list--rightAside.css";
+@import "/assets/css/footer_frontpage.css";
+
+body{
+    background: #000;
+}
+
+main{
+    padding: 0 2vw;
+    margin: 0 10vw;
+    background: #FFF;
+}
+
+.inputAndIcons{
+    grid-area: 1/2/2/3;
+}
+
+.frontPage__nav{
+    grid-area: 2/1/3/3;
+    height: 5vh;
+}
+
+#categoryList{
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 2vw;
+}
+
+.breadcrumb{
+    grid-area: 1/1/2/4;
+}
+
+.venstreAside{
+    grid-area: 2/1/-1/2;
+}
+
+.middleSection{
+    grid-area: 2/2/-1/3;
+}
+
+.rightAside{
+    grid-area: 2/3/-1/4;
+}
+

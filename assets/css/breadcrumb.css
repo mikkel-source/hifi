@@ -1,0 +1,22 @@
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 1rem;
+  font-family: 'Museo Sans Rounded 300';
+}
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #d0b584;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #d0b584;
+  text-decoration: underline;
+}

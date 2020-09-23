@@ -1,0 +1,95 @@
+.cart i, .icon {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+}
+.searchBar i, .account i {
+  color: rgb(158, 158, 158);
+}
+.account p, .cart p {
+  color: #fff;
+  margin: 0;
+  margin-left: 0.2em;
+  font-family: 'Museo Sans Rounded 300';
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.headerCategoryList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  background-color: #000;
+  align-items: end;
+}
+.account, .cart {
+  display: flex;
+}
+.inputAndIcons {
+  display: grid;
+  grid-template-columns: 5fr repeat(5, 1fr);
+  grid-gap: 1vw;
+  margin-bottom: 1em;
+  margin-right: 1vw;
+  place-items: center;
+}
+.searchBar, .account, .cart, .icon {
+  justify-self: center;
+  font-size: 1.5rem;
+}
+.searchBar {
+  justify-self: start;
+  grid-column: 1/2;
+  position: relative;
+  display: grid;
+}
+.search {
+  width: 30vw;
+  height: 100%;
+  padding: 0.8em;
+}
+.fa-search {
+  position: absolute;
+  right: 5px;
+  top: 7px;
+}
+
+/* Responsive──────────────────────────────────────────────────────── */
+
+@media only screen and (min-width: 1600px) {
+  .search {
+    width: 20vw;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .headerCategoryList {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+    align-items: center;
+  }
+  .search {
+    width: 40vw;
+  }
+  .logo {
+    place-self: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .headerCategoryList {
+    align-items: start;
+  }
+  .inputAndIcons {
+    grid-template-rows: 2fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 1em;
+  }
+  .searchBar {
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    place-self: center;
+  }
+  .search {
+    width: 60vw;
+  }
+  .cart, .account {
+    grid-column: 1/-1;
+  }
+}

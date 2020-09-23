@@ -1,14 +1,11 @@
 .frontPageheader {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(1, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   margin: 0;
   padding: 0;
   font-family: 'Museo Sans Rounded 300';
   text-transform: uppercase;
-  position: absolute;
-  z-index: 1;
-  width: 100%;
 }
 .frontPage__icons {
   grid-row: 1/2;
@@ -16,17 +13,17 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 1);
 }
 .frontPage__nav {
   background-color: #000;
   grid-template-columns: 1fr auto 1fr;
   display: grid;
-  border-top: 1px solid #A39161;
+  border-top: 1px solid #a39161;
 }
 .navLink, .navIcons {
   list-style: none;
-  font-size: 14px;
+  font-size: 12px;
 }
 .frontPage__navLinks {
   display: grid;
@@ -43,7 +40,7 @@
   color: #A39161;
 }
 .navIcons {
-  margin-right: 20px;
+  margin-right: 40px;
   font-size: 1.5rem;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
@@ -62,7 +59,8 @@
   color: #fff;
   border: none;
   border-radius: 5px;
-  padding: 3px;
+  padding-top: 1px;
+  padding-bottom: 1px;
   margin-bottom: 8px;
 }
 .subscribeBtn span {
