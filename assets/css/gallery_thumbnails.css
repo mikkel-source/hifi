@@ -6,11 +6,11 @@
 }
 .gallery_with_thumbnails {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     grid-template-rows: 300px 1fr 1fr;
+    width: 50vw;
 }
 .bigPhoto {
-    grid-area: 1/span 3;
+    grid-area: 1/-1;
     place-self: center;
 }
 .thumbnails { 
@@ -24,4 +24,9 @@
 .thumbnail_to {
     width: 90px;
     height: 34px;
+}
+
+.singleProduct__gridBox{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
