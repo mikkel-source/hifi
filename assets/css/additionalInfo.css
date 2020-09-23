@@ -14,7 +14,7 @@
 
 .additionalInfo__overskrift {
     text-align: left;
-    font-size: 2.55em;
+    font-size: 1.75em;
     font-weight: 700;
     margin: .4em 0;
     color: var(--second-color);
@@ -26,6 +26,7 @@
     grid-column: 2/-1;
     grid-row: 1/2;
     margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 #additionalInfo__table th:nth-child(odd) {
@@ -54,4 +55,5 @@ th {
 .descriptionbox {
     grid-column: 1/-1;
     grid-row: 2/-1;
+    margin-left: 1rem;
 }
