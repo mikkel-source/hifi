@@ -1,0 +1,42 @@
+.logo {
+    font-family: 'Museo Sans Rounded 500';
+    font-weight: 600;
+    padding: 1em;
+    padding-bottom: 6px;
+  }
+  .logo__largeText {
+    max-width: 50px;
+    /* vidden på firkanten */
+    text-transform: uppercase;
+    font-size: 10px;
+    /* skriftstørrelsen på HIFI */
+    border: 2px solid #FFF;
+    color: #FFF;
+    padding-left: 3px;
+  }
+  .logo__largeText p:first-of-type {
+    margin: 0;
+    padding-top: 20px;
+    /* højden på firkanten */
+    letter-spacing: 0vw;
+    /* hvor langt i'et er fra h'et */
+    line-height: 1vw;
+  }
+  .logo__largeText p:last-of-type {
+    margin: 0;
+    letter-spacing: 2.9px;
+    /* hvor langt i'et er fra f'et */
+  }
+  .logo__websiteLink {
+    text-transform: uppercase;
+    max-width: 100%;
+    font-size: 5.5px;
+    /* skriftstørrelsen på linket under firkanten */
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    /* lidt mere plads mellem bogstaverne i ordet */
+    color: #FFF;
+    margin: 0;
+    padding-top: 0.2px;
+    /* padding mellem firkanten og linket */
+  } 
