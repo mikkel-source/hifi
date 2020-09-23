@@ -65,7 +65,9 @@
 .products__addToCardLink {
     grid-area: addToCardLink;
     justify-self: center;
+    align-self: end;
     width: 9vw;
+    height: 1rem;
     padding: .5vw 1.5vw;
     font-size: 1vw;
     color: rgb(255 , 255, 255);
