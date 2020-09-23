@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --second-color: rgb(163, 145, 97);
+    --tablelBackground-color: rgb(225, 225, 225);
+    ;
+    --tableBorder-color: rgb(195, 195, 195);
+}
+
+.additionalInfo__overskrift {
+    text-align: left;
+    font-size: 1.75em;
+    font-weight: 700;
+    margin: .4em 0;
+    color: var(--second-color);
+}
+
+.additionalInfo__table {
+    width: fit-content;
+    text-align: left;
+    grid-column: 2/-1;
+    grid-row: 1/2;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#additionalInfo__table th:nth-child(odd) {
+    background-color: var(--tablelBackground-color);
+}
+
+.additionalInfo__table,
+td {
+    padding-left: .4em;
+}
+
+.manufacturerLink {
+    text-decoration-line: none;
+    color: var(--second-color);
+}
+
+.additionalInfo__table,
+tr,
+th {
+    padding: .4em;
+    border: 1px solid var(--tableBorder-color);
+    border-collapse: collapse;
+    font-size: 1rem;
+}
+
+.descriptionbox {
+    grid-column: 1/-1;
+    grid-row: 2/-1;
+    margin-left: 1rem;
+}
