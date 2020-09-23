@@ -1,6 +1,7 @@
 {
     "hojtalere": [
         {
+            "img": "/Produktbilleder/hojtalere/boesendorfer_vcs_wall.gif",
             "name": "Boesendorfer VCSv Wall",
             "manufacturer": "Boesendorfer",
             "price": "£6723",
@@ -34,6 +35,7 @@
             ]
         },
         {
+            "img": "/Produktbilleder/hojtalere/epos_m5.gif",
             "name": "Epos M5",
             "manufacturer": "Epos",
             "price": "£700",
@@ -67,6 +69,7 @@
             ]
         },
         {
+            "img": "/Produktbilleder/hojtalere/harbeth_hl7es2.jpg",
             "name": "Harbeth HL7ES2",
             "manufacturer": "Harbeth",
             "price": "£26900",
@@ -103,6 +106,7 @@
             ]
         },
         {
+            "img": "/Produktbilleder/hojtalere/harbeth_monitor30.jpg",
             "name": "Harbeth Monitor 30",
             "manufacturer": "Harbeth",
             "price": "£2000000",
@@ -135,6 +139,7 @@
             ]
         },
         {
+            "img": "/Produktbilleder/hojtalere/harbeth_p3es2.jpg",
             "name": "Harbeth P3ES2",
             "manufacturer": "Harbeth",
             "price": "£290",

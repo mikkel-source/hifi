@@ -1,6 +1,7 @@
 {
     "roer_forstaerkere": [
         {
+            "img": "/Produktbilleder/roer_forstaerkere/jolida_JD102b.jpg",
             "name": "Jolida JD102B",
             "manufacturer": "Jolida",
             "price": "£2400",
@@ -36,6 +37,7 @@
             ]
         },
         {
+            "img": "/Produktbilleder/roer_forstaerkere/jolida_JD.jpg202a",
             "name": "Jolida JD202A",
             "manufacturer": "Jolida",
             "price": "£2400",
@@ -71,6 +73,7 @@
             ]
         },
         {
+            "img": "/Produktbilleder/roer_forstaerkere/jolida_JD300b.jpg",
             "name": "Jolida JD300B",
             "manufacturer": "Jolida",
             "price": "£2400",
@@ -106,6 +109,7 @@
             ]
         },
         {
+            "img": "/Produktbilleder/roer_forstaerkere/jolida_JD302b.jpg",
             "name": "Jolida JD302B",
             "manufacturer": "Jolida",
             "price": "£2400",
@@ -141,6 +145,7 @@
             ]
         },
         {
+            "img": "/Produktbilleder/roer_forstaerkere/jolida_JD502b.jpg",
             "name": "Jolida JD502B",
             "manufacturer": "Jolida",
             "price": "£2400",

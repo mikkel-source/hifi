@@ -1,6 +1,7 @@
 {
     "effektforstaerkere": [
         {
+            "img": "/Produktbilleder/effektforstaerkere/manley_mahi.jpg",
             "name": "Manley Mahi",
             "manufacturer": "Manley",
             "price": "£6090",
@@ -34,6 +35,7 @@
             ]
         },
         {
+            "img": "/Produktbilleder/effektforstaerkere/manley_neoclassic300b.jpg",
             "name": "Manley Neoclassic300B",
             "manufacturer": "Manley",
             "price": "£7890",
@@ -67,6 +69,7 @@
             ]
         },
         {
+            "img": "/Produktbilleder/effektforstaerkere/manley_snapper.jpg",
             "name": "Manley Snapper",
             "manufacturer": "Manley",
             "price": "£1700",
@@ -103,6 +106,7 @@
             ]
         },
         {
+            "img": "/Produktbilleder/effektforstaerkere/parasound_haloa23.jpg",
             "name": "Parasound HaloA23",
             "manufacturer": "Parasound",
             "price": "£200",

@@ -1,6 +1,7 @@
 {
     "cd afspillere": [
         {
+            "img": "/Produktbilleder/cd_afspillere/creek_classic_cd.jpg",
             "name": "Creek classic CD",
             "manufacturer": "Creek",
             "price": "£100",
@@ -34,6 +35,7 @@
             ]
         },
         {
+            "img": "/Produktbilleder/cd_afspillere/creek_Destiny_cd.jpg",
             "name": "Creek Destiny CD",
             "manufacturer": "Creek",
             "price": "£789",
@@ -67,6 +69,7 @@
             ]
         },
         {
+            "img": "/Produktbilleder/cd_afspillere/creek_evo_cd.jpg",
             "name": "Creek EVO CD",
             "manufacturer": "Creek",
             "price": "£20000",
@@ -103,6 +106,7 @@
             ]
         },
         {
+            "img": "/Produktbilleder/cd_afspillere/Exp_2010S_CD.gif",
             "name": "EXP 2010S CD",
             "manufacturer": "EXP",
             "price": "£906",
